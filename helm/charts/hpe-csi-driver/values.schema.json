@@ -11,6 +11,7 @@
                 "alletra6000": false,
                 "alletra9000": false,
                 "alletraStorageMP": false,
+                "alletraStorageMPBlock": false,
                 "b10000FileService": false,
                 "x10000FileService": false
             },
@@ -84,6 +85,7 @@
                     "alletra6000": false,
                     "alletra9000": false,
                     "alletraStorageMP": false,
+                    "alletraStorageMPBlock": false,
                     "b10000FileService": false,
                     "x10000FileService": false
                 },
@@ -93,6 +95,7 @@
                 "alletra6000",
                 "alletra9000",
                 "alletraStorageMP",
+                "alletraStorageMPBlock",
                 "b10000FileService",
                 "x10000FileService"
             ],
@@ -124,6 +127,12 @@
                 "alletraStorageMP": {
                     "$id": "#/properties/disable/properties/alletraStorageMP",
                     "title": "HPE Alletra Storage MP B10000",
+                    "type": "boolean",
+                    "default": false
+                },
+                "alletraStorageMPBlock": {
+                    "$id": "#/properties/disable/properties/alletraStorageMPBlock",
+                    "title": "HPE Alletra Storage MP B10000 Block Storage (WSAPI v3 native CSP)",
                     "type": "boolean",
                     "default": false
                 },
@@ -405,6 +414,7 @@
                 "csiControllerDriver",
                 "nimbleCSP",
                 "primera3parCSP",
+                "alletraMPBlockCSP",
                 "b10000FileServiceCSP",
                 "x10000FileServiceCSP",
                 "nfsProvisioner",
@@ -437,6 +447,11 @@
                 "primera3parCSP": {
                     "$id": "#/properties/images/properties/primera3parCSP",
                     "title": "3PAR, Primera, Alletra 9000 and Alletra Storage MP B10000 Block Storage CSP",
+                    "type": "string"
+                },
+                "alletraMPBlockCSP": {
+                    "$id": "#/properties/images/properties/alletraMPBlockCSP",
+                    "title": "Alletra Storage MP B10000 Block Storage CSP (WSAPI v3 native)",
                     "type": "string"
                 },
                 "b10000FileServiceCSP": {

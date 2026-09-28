@@ -46,6 +46,8 @@ spec:
                     type: boolean
                   alletraStorageMP:
                     type: boolean
+                  alletraStorageMPBlock:
+                    type: boolean
                   b10000FileService:
                     type: boolean
                   x10000FileService:
@@ -56,6 +58,7 @@ spec:
                 - nimble
                 - primera
                 - alletraStorageMP
+                - alletraStorageMPBlock
                 - b10000FileService
                 - x10000FileService
                 type: object
@@ -111,6 +114,8 @@ spec:
                     type: string
                   primera3parCSP:
                     type: string
+                  alletraMPBlockCSP:
+                    type: string
                   b10000FileServiceCSP:
                     type: string
                   x10000FileServiceCSP:
@@ -140,6 +145,7 @@ spec:
                 - csiControllerDriver
                 - nimbleCSP
                 - primera3parCSP
+                - alletraMPBlockCSP
                 - b10000FileServiceCSP
                 - x10000FileServiceCSP
                 - nfsProvisioner

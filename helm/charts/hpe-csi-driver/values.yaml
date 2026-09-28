@@ -9,6 +9,8 @@ disable:
   alletra6000: false
   alletra9000: false
   alletraStorageMP: false
+  # WSAPI v3 native Alletra Storage MP B10000 Block CSP (alletrastoragemp-block-csp-svc)
+  alletraStorageMPBlock: false
   b10000FileService: false
   x10000FileService: false
 
@@ -121,6 +123,7 @@ images:
   csiControllerDriver: quay.io/hpestorage/csi-driver:v3.3.0
   nimbleCSP: quay.io/hpestorage/alletra-6000-and-nimble-csp:v3.3.0
   primera3parCSP: quay.io/hpestorage/alletra-9000-primera-and-3par-csp:v3.3.0
+  alletraMPBlockCSP: quay.io/hpestorage/alletrastoragemp-b10000-block-csp:v1.0.0
   b10000FileServiceCSP: quay.io/hpestorage/alletrastoragemp-b10000-nfs-csp:v1.3.0
   x10000FileServiceCSP: quay.io/hpestorage/alletrastoragemp-x10000-nfs-csp:v1.1.0
   nfsProvisioner: quay.io/hpestorage/nfs-provisioner:v3.0.11
