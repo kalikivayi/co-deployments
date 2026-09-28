@@ -38,7 +38,7 @@ spec:
       priorityClassName: system-cluster-critical
       containers:
         - name: alletrastoragemp-block-csp
-          image: "quay.io/hpestorage/alletrastoragemp-b10000-block-csp:v1.0.0"
+          image: "quay.io/skalikiva/hpestorage/alletrastoragemp-b10000-block-csp:edge"
           resources:
             limits:
               cpu: 2000m

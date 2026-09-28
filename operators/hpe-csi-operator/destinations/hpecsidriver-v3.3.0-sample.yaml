@@ -61,7 +61,7 @@ spec:
     nfsProvisioner: quay.io/hpestorage/nfs-provisioner:v3.0.11
     nimbleCSP: quay.io/hpestorage/alletra-6000-and-nimble-csp:v3.3.0
     primera3parCSP: quay.io/hpestorage/alletra-9000-primera-and-3par-csp:v3.3.0
-    alletraMPBlockCSP: quay.io/hpestorage/alletrastoragemp-b10000-block-csp:v1.0.0
+    alletraMPBlockCSP: quay.io/skalikiva/hpestorage/alletrastoragemp-b10000-block-csp:edge
     x10000FileServiceCSP: quay.io/hpestorage/alletrastoragemp-x10000-nfs-csp:v1.1.0
   iscsi:
     chapSecretName: ""
