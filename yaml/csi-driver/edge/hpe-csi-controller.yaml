@@ -242,4 +242,3 @@ spec:
         - name: root-dir
           hostPath:
             path: /
-

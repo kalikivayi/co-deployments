@@ -14,9 +14,6 @@ spec:
     protocol: TCP
   selector:
     app: alletrastoragemp-x10000-nfs-csp
-
-
-
 ---
 # Source: hpe-csi-driver/templates/x10000-nfs-csp.yaml
 ### CSP deployment ###
@@ -60,4 +57,3 @@ spec:
         - name: log-dir
           hostPath:
             path: /var/log
-

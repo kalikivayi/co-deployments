@@ -14,7 +14,6 @@ spec:
     protocol: TCP
   selector:
     app: primera3par-csp
-
 ---
 # Source: hpe-csi-driver/templates/primera-3par-csp.yaml
 ### Alletra9000 CSP Service ###
@@ -31,7 +30,6 @@ spec:
     protocol: TCP
   selector:
     app: primera3par-csp
-
 ---
 # Source: hpe-csi-driver/templates/primera-3par-csp.yaml
 ### Primera3par CSP Service ###
@@ -48,8 +46,6 @@ spec:
     protocol: TCP
   selector:
     app: primera3par-csp
-
-
 ---
 # Source: hpe-csi-driver/templates/primera-3par-csp.yaml
 ### CSP deployment ###
@@ -102,4 +98,3 @@ spec:
         - name: log-dir
           hostPath:
             path: /var/log
-

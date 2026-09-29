@@ -36,6 +36,7 @@ The following table lists the configurable parameters of the chart and their def
 | disable.alletra6000       | Disable HPE Alletra 5000/6000 CSP `Service`.                                                       | false            |
 | disable.alletra9000       | Disable HPE Alletra 9000 CSP `Service`.                                                            | false            |
 | disable.alletraStorageMP  | Disable HPE Alletra Storage MP B10000 Block Storage CSP `Service`.                                 | false            |
+| disable.alletraStorageMPBlock | Disable HPE Alletra Storage MP B10000 Block Storage (WSAPI v3 native) CSP `Service` and `Deployment`. | false      |
 | disable.b10000FileService  | Disable HPE Alletra Storage MP B10000 File Service CSP `Service`.                                  | false            |
 | disable.x10000FileService  | Disable HPE Alletra Storage MP X10000 File Service CSP `Service`.                                  | false            |
 | disableNodeConformance    | Disable automatic installation of iSCSI, multipath and NFS packages.                               | false            |

@@ -334,6 +334,44 @@ entries:
   hpe-csi-driver:
   - annotations:
       artifacthub.io/category: storage
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Release Highlights
+          url: https://scod.hpedev.io/csi_driver/index.html#latest_release
+        - name: Release Notes
+          url: https://github.com/hpe-storage/csi-driver/tree/master/release-notes
+        - name: Documentation
+          url: https://scod.hpedev.io/csi_driver
+        - name: Chart Source
+          url: https://github.com/hpe-storage/co-deployments
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/recommendations: |
+        - url: https://artifacthub.io/packages/olm/community-operators/hpe-csi-operator
+        - url: https://artifacthub.io/packages/helm/hpe-storage/hpe-csi-info-metrics
+        - url: https://artifacthub.io/packages/helm/hpe-storage/hpe-array-exporter
+    apiVersion: v1
+    appVersion: 4.0.0-test
+    created: "2026-09-28T12:10:07.458980542Z"
+    description: A Helm chart for installing the HPE CSI Driver for Kubernetes
+    digest: 9a8c1887dd42fda5c8599e109a08fe19c81320b48b4a3c3c207941f9d298cadd
+    home: https://hpe.com/storage/containers
+    icon: https://raw.githubusercontent.com/hpe-storage/co-deployments/master/docs/assets/hpedev.png
+    keywords:
+    - HPE
+    - Storage
+    - CSI
+    maintainers:
+    - email: dev-hi-containers@hpe.com
+      name: datamattsson
+    name: hpe-csi-driver
+    sources:
+    - https://github.com/hpe-storage/csi-driver
+    urls:
+    - hpe-csi-driver-4.0.0-test.tgz
+    version: 4.0.0-test
+  - annotations:
+      artifacthub.io/category: storage
       artifacthub.io/containsSecurityUpdates: "true"
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -2185,4 +2223,4 @@ entries:
     urls:
     - hpe-greenlake-file-csi-driver-1.0.0-beta.tgz
     version: 1.0.0-beta
-generated: "2026-09-08T22:37:20.929346+05:30"
+generated: "2026-09-28T12:10:07.453956293Z"
